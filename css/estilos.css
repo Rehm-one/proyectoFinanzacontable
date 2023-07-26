@@ -1,0 +1,648 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.cuerpo {
+
+    background-color: #FBF2E5;
+}
+
+
+/*BARRA DE NAVEGACION*/
+
+.logo {
+
+    height: 150px;
+}
+
+.navBar {
+
+    background-color: #FBF2E5;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+
+}
+
+nav ul {
+
+    gap: 20px;
+
+}
+
+/*SECCION DE IMAGEN INDEX */
+
+.contable {
+
+    position: relative;
+    text-align: center;
+}
+
+
+.contable img {
+
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texto {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+
+}
+
+/* SERVICIOS*/
+
+h2 {
+    text-align: center;
+    margin: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+}
+
+.containerservicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    margin: 20px;
+
+}
+
+.containerservicios div {
+    text-align: center;
+}
+
+.containerservicios img {
+    padding: 5px;
+    width: 110px;
+    height: 110px;
+}
+
+.containerservicios p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Libre Franklin', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+.brindamos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 150px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+}
+
+.boton {
+    padding-bottom: 70px;
+
+}
+
+
+
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    background-color: #585656;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.contenedor p {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+.textofooter {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.redescontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.redes img {
+    height: 70px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/*QUIENES SOMOS */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 800px; /* Ajusta este valor según tus necesidades */
+    margin: 0 auto; /* Centrar el grid */
+}
+
+.grid-container img {
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+    margin: auto;
+   
+}
+
+.quienes-somos {
+    max-width: 100%; /* Ajusta este valor según tus necesidades */
+    margin: 0 auto; /* Centrar la sección */
+   
+}
+
+.quienes-somos h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+}
+
+.quienes-somos p {
+    font-size: 23px;
+    text-align: left;
+    line-height: 1.5;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+}
+
+.descripcion {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Para ajustar el contenido en pantallas pequeñas */
+    justify-content: space-between; /* Espacio entre los elementos */
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+}
+
+.descripcion div {
+    flex: 0 0 calc(50% - 20px); /* 2 columnas en pantallas grandes */
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #20212483;
+    margin-bottom: 20px; /* Espacio entre los elementos */
+}
+
+.descripcion h2 {
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.564);
+    margin: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+}
+/*NUESTRO EQUIPO*/
+.nuestroh2 h2 {
+
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.564);
+    margin: 40px;
+    font-family: 'Libre Franklin', sans-serif;
+
+
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+div .card {
+
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    background-color: #20212483;
+}
+
+.card img {
+
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+    background-color: #af7b14;
+
+}
+
+.card b {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.card p {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*QUE OFRECEMOS */ 
+
+main {
+    max-width: 1600px; /* Ajusta este valor según tus necesidades */
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 20px;
+}
+
+.ofrecemos {
+    text-align: center;
+
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.izquierda-img, .derecha-img2 {
+    flex: 0 0 40%; /* Ocupar el 40% del ancho */
+    margin-right: 20px;
+}
+
+.izquierda-img img, .derecha-img2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contenido {
+    flex: 1; /* Ocupar el espacio restante */
+}
+
+.contenido h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contenido p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/*CRIPTOMONEDAS*/ 
+
+.ofrecemos {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.564);
+    text-transform: uppercase;
+
+}
+
+.containercripto {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.contenido h2 {
+
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 40px;
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.criptoimg img {
+    height: 500px;
+    width: 800px;
+    margin: 25px;
+
+
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.797);
+}
+
+.contenido p  { 
+
+    font-size: 25px;
+}
+.textocripto { 
+
+    color: #af7b14;
+    text-align: end;
+}
+.containerofrecemos{ 
+
+    margin-top: 200px;
+}
+/*CONTACTO*/ 
+.form-container{ 
+    display: block;
+
+
+}
+.form-container form {
+    width: 40%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #585656;
+    padding: 50px;
+    border-radius: 20px;
+    font-size: 25px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.797);
+    font-family: 'Libre Franklin', sans-serif; 
+
+}
+
+.form-container input {
+
+    margin-bottom: 25px;
+    
+
+
+}
+
+.form-container textarea {
+
+    margin-bottom: 25px;
+
+}
+
+.h1form {
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.564);
+    font-family: 'Libre Franklin', sans-serif; 
+}
+
+.botonenviar {
+
+    width: 400px;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgb(243, 216, 182);
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.797);
+    font-family: 'Libre Franklin', sans-serif; 
+    border: none;
+}
+
+
+.h2contacto {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.564);
+    font-family: 'Libre Franklin', sans-serif; 
+
+
+
+}
+
+.containercontactocv {
+
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+    margin-bottom: 150px;
+    font-family: 'Libre Franklin', sans-serif; 
+
+
+
+
+
+
+}
+
+.seccion ul {
+    text-align: center;
+    flex-direction: column;
+    background-color: #585656;
+    padding: 100px;
+    margin: auto;
+    height: 550px;
+    width: 500px;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 50px;
+    font-family: 'Libre Franklin', sans-serif; 
+
+
+}
+
+
+.h2cv {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.564);
+    font-family: 'Libre Franklin', sans-serif; 
+
+
+}
+
+
+
+/*MEDIAS QUERIS*/
+@media (max-width: 768px) {
+
+    .texto {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 400;
+
+    }
+
+    .grid-container {
+        
+        display: none;
+    }
+    .quienestexto{ 
+        margin: 20px;
+    }
+
+    .descripcion div {
+        flex: 1 1 100%; 
+    }
+
+    .quienes-somos h1 {
+        font-size: 2rem; 
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+   
+    
+    
+    .izquierda-img{ 
+        display: none;
+    }
+    .derecha-img2{ 
+        display: none;
+    }
+
+}
+
+  
+
+
+@media (max-width: 1024px) {
+    .texto {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 400;
+
+    }
+   
+   
+    .quienes-somos{ 
+        
+        text-align: center;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .grid-container{ 
+        display: none;
+        
+    }
+    .quienestexto{ 
+        margin: 20px;
+    }
+    .derecha-img2{ 
+        display: none;
+    }
+    .izquierda-img{ 
+        display: none;
+    }
+
+  
+    .botonenviar{ 
+        width: 90%;
+        font-size: 1.3rem;
+        border: none;
+    }
+
+    .containercontactocv{ 
+        display: block;
+        
+
+    }
+  
+
+}
