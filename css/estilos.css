@@ -226,8 +226,8 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-    max-width: 800px; /* Ajusta este valor según tus necesidades */
-    margin: 0 auto; /* Centrar el grid */
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 .grid-container img {
@@ -240,8 +240,9 @@ footer {
 }
 
 .quienes-somos {
-    max-width: 100%; /* Ajusta este valor según tus necesidades */
-    margin: 0 auto; /* Centrar la sección */
+    max-width: 100%; 
+    margin: 0 auto; 
+  
    
 }
 
@@ -252,23 +253,29 @@ footer {
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 300;
+    text-align: center;
 }
+.quienestexto h1{ 
+    color: #000000;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 2; 
+ }
+.somos{ 
 
-.quienes-somos p {
-    font-size: 23px;
+    font-size: 1.5rem;
     text-align: left;
     line-height: 1.5;
-    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 300;
+    
+    font-weight: 1;
+   
 }
 
 .descripcion {
     padding: 20px;
     margin: 20px;
     display: flex;
-    flex-wrap: wrap; /* Para ajustar el contenido en pantallas pequeñas */
-    justify-content: space-between; /* Espacio entre los elementos */
+    flex-wrap: wrap; 
+    justify-content: space-between; 
     text-align: justify;
     font-size: 1.3rem;
     line-height: 1.5;
@@ -278,11 +285,11 @@ footer {
 }
 
 .descripcion div {
-    flex: 0 0 calc(50% - 20px); /* 2 columnas en pantallas grandes */
+    flex: 0 0 calc(50% - 20px); 
     padding: 50px;
     border-radius: 10px;
     background-color: #20212483;
-    margin-bottom: 20px; /* Espacio entre los elementos */
+    margin-bottom: 20px; 
 }
 
 .descripcion h2 {
@@ -291,6 +298,7 @@ footer {
     margin: 15px;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 300;
+    text-align: center;
 }
 /*NUESTRO EQUIPO*/
 .nuestroh2 h2 {
@@ -299,6 +307,7 @@ footer {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.564);
     margin: 40px;
     font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
 
 
 }
@@ -350,8 +359,8 @@ div .card {
 /*QUE OFRECEMOS */ 
 
 main {
-    max-width: 1600px; /* Ajusta este valor según tus necesidades */
-    margin: 0 auto; /* Centrar el contenido */
+    max-width: 1600px; 
+    margin: 0 auto; 
     padding: 20px;
 }
 
@@ -368,7 +377,7 @@ section {
 }
 
 .izquierda-img, .derecha-img2 {
-    flex: 0 0 40%; /* Ocupar el 40% del ancho */
+    flex: 0 0 40%; 
     margin-right: 20px;
 }
 
@@ -378,7 +387,7 @@ section {
 }
 
 .contenido {
-    flex: 1; /* Ocupar el espacio restante */
+    flex: 1; 
 }
 
 .contenido h2 {
@@ -390,6 +399,8 @@ section {
     font-size: 1rem;
     line-height: 1.5;
     text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-weight: 5;
 }
 
 /*CRIPTOMONEDAS*/ 
@@ -445,6 +456,11 @@ section {
 
     margin-top: 200px;
 }
+strong{ 
+
+    text-align: center;
+}
+
 /*CONTACTO*/ 
 .form-container{ 
     display: block;
@@ -503,7 +519,7 @@ section {
     align-items: center;
     margin: auto;
     border-radius: 20px;
-    background-color: rgb(243, 216, 182);
+    background-color: #a42b31d0;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.797);
     font-family: 'Libre Franklin', sans-serif; 
     border: none;
